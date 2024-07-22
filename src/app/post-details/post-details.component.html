@@ -1,0 +1,36 @@
+<div class="container">
+ 
+  <div class="heading">
+    <div class="homepagereturn" title="Home">
+      <span class="icon" (click)="backtohome()"><i class="fa fa-home"></i></span> 
+    </div>
+    <div class="title">
+      {{ post?.title }}
+    </div>
+    
+  </div>
+
+  
+
+  <div class="user" *ngIf="user">
+   <div class="header"><strong>Author Details:</strong></div>
+    <div class="name"> <strong>Name:</strong> {{ user.name }}</div>
+    <div class="email"><strong>Email:</strong> {{ user.email }}</div>
+    <div class="pho"><strong>Phone:</strong> {{ user.phone }}</div>
+  </div>
+
+  <div class="body">
+    <strong>Content :</strong>  &nbsp; {{ post?.body }}
+  </div>
+
+  <div class="comment" *ngIf="comments.length > 0">
+    <div class="commentheading">Comments</div>
+    <div class="userComment" *ngFor="let comment of comments">
+      <div class="commentname"><strong>Name: &nbsp;  </strong>{{ comment.name }}</div>
+      <div class="commentbody"><strong>Body: &nbsp; </strong>{{ comment.body }}</div>
+      <div class="commentemail"><strong>Email: &nbsp;  </strong>{{ comment.email }}</div>
+      <hr>
+    </div>
+  </div>
+</div>
+

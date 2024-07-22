@@ -1,0 +1,69 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #842a2a;
+    box-shadow: 6px 4px 20px rgba(1, 6, 6, 0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 49px;
+    border-radius: 5px;
+}
+
+.body{
+    background-color: #fef5f5;
+    box-shadow: 6px 4px 20px rgb(1 6 6 / 99%);
+    color: black;
+}
+
+.boxauthor{
+    width: 100%;
+    height: 13vh;
+    box-shadow: 1px 4px 3px rgba(1, 6, 6, 0.5);
+}
+
+.titlebook{
+    display: flex;
+    align-content: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 1%;
+}
+
+.bodybook{
+    display: flex;
+    align-content: center;
+    padding-top: 2px;
+    font-size: 15px;
+    padding-left: 1%;
+}
+
+.authorbook{
+    display: flex;
+    align-content: center;
+    padding-top: 2px;
+    font-size: 15px;
+    padding-left: 1%;
+}
+
+.button{
+    background-color: #842a2a;
+    border: none;
+    color: white;
+    padding: 8px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 93%;
+    padding-left: 1%;
+    border-radius: 5px;
+}

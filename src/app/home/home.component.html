@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="header">
+     Home Page
+  </div>
+  <div class="body">
+    <div class="boxauthor" *ngFor="let post of posts">
+      <div class="titlebook">
+        TITLE:  &nbsp; {{ post.title }}
+      </div>
+      <div class="bodybook">
+        <b>CONTENT:  &nbsp;</b>{{ post.body }}
+      </div>
+      <div class="authorbook">
+        <strong>AUTHOR NAME:  &nbsp;</strong> {{ post.user?.name }}</div>
+        <a class="button"[routerLink]="['/post', post.id]">View Details</a>
+      </div>
+  </div>
+</div>
+
+  

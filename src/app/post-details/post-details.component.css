@@ -1,0 +1,99 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+    font-weight: bold;
+    font-size: 33px;
+    border-radius: 5px;
+    box-shadow: 6px 4px 18px rgb(1 6 6 / 99%);
+    background-color: #842a2a;
+    color: white;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.homepagereturn{
+    margin-left: 2%;
+}
+
+.title{
+    margin-left: 14%;
+}
+
+.body{
+    color: black;
+    height: 5vh;
+    margin-top: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.user{
+    margin-left: 1%;
+    padding-top: 5px;
+    width: 33vh;
+    height: 11vh;
+    background-color: white;
+    box-shadow:1px 1px 1px 2px rgb(156 179 179 / 99%);
+    margin-top: 1%;
+}
+
+.header{
+    padding-top: 1px;
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.name,.email,.pho{
+    padding-top: 2px;
+    padding-left: 2%;
+}
+
+.comment{
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:1px 1px 1px 2px rgba(187, 202, 202, 0.99);
+}
+
+.commentheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 1px 4px 3px rgba(1, 6, 6, 0.5);
+}
+
+.userComment{
+    width: 97vw;
+    height: 10vh;
+    padding-left: 15px;
+    padding-top: 1%;
+}
+
+.commentname{
+    padding-top: 5px;
+}
+
+.commentbody{
+    padding-top: 5px;
+}
+
+.commentemail{
+    padding-top: 5px;
+}
